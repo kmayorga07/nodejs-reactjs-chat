@@ -1,4 +1,11 @@
+### Authentication request
 POST http://localhost:3001/authenticate
 Content-Type: application/json
 
-{ "username": "zack" }
+{ "username": "zack", "password": "pass" }
+
+### Registration request
+POST http://localhost:3001/register
+Content-Type: application/json
+
+{ "username": "zack", "password": "pass" }
